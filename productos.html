@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barber Shop - Cortes</title>
+  <!-- Hoja de estilos principal: contiene tipografías, colores, layout y reglas responsive. -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Barber Shop</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="productos.html" class="activo">Productos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="productos">
+      <h2> Cortes Modelos </h2>
+        <h2> !Son cortes a modo ilustrativo¡</h2>
+      <!--
+        Contenedor de tarjetas de producto:
+        - .tarjetas: grid/flex contenedor
+        - .tarjeta: bloque individual con imagen, título y descripción
+      -->
+      <div class="tarjetas">
+        <!-- Tarjeta: Espresso -->
+        <div class="tarjeta">
+          <!--
+            Imagen del producto:
+            - class .img-producto aplica tamaño fijo y object-fit: cover para recorte consistente
+            - src apunta a la carpeta proyecto_cafe/img donde están las fotos reales
+            - alt proporciona texto alternativo para accesibilidad
+          -->
+          <img class="img-producto" src="proyecto_cafe/img/taper.jpg" alt="Espresso">
+          <h3>Taper Fade</h3>
+          <p>Taper fade es un degradado gradual que reduce la longitud del cabello desde la parte superior de la cabeza hasta los lados y la nuca</p>
+        </div>
+
+        <!-- Tarjeta: Latte -->
+        <div class="tarjeta">
+          <img class="img-producto" src="proyecto_cafe/img/buzz.jpg" alt="Latte">
+          <h3>Buzz Cut</h3>
+          <p>Se refiere a un corte de pelo muy corto que se realiza con máquina, a menudo de longitud uniforme en toda la cabeza. </p>
+        </div>
+
+        <!-- Tarjeta: Tostado artesanal -->
+        <div class="tarjeta">
+          <img class="img-producto" src="proyecto_cafe/img/azucarame.jpg" alt="Tostado artesanal">
+          <h3>Azucarame la Manbreta</h3>
+          <p> Es un corte moderno y arriesgado que ha ganado popularidad entre jóvenes que buscan un estilo atrevido y asimétrico.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Barber Shop Córdoba.</p>
+  </footer>
+</body>
+</html>

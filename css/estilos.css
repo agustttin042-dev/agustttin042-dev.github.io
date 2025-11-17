@@ -4,12 +4,10 @@
 body 
   /* Fuente principal: Poppins cargada desde Google Fonts en el HTML */
   .indie-flower-regular {
-    .indie-flower-regular {
-      font-family: "Indie Flower", cursive;
-      font-weight: 400;
-      font-style: normal;
-    }
-    
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}    
   }
 /* =========================
    Header / navegación
